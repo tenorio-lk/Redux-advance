@@ -1,0 +1,25 @@
+.StoreControl {
+    width: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 16px;
+    border: 1px solid rgb(145, 145, 145);
+    box-shadow: 0 2px 2px rgb(58, 58, 58);
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(14, 192, 73);
+    color: white;
+    font-size: inherit;
+}
+
+.StoreControl:hover,
+.StoreControl:active {
+    background-color: #eee;
+    color: black;
+}
+
+.DeleteList:hover {
+    color: red;
+}
